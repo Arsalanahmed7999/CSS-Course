@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            background: #000;
+            /* font-size: 3em; */
+
+        }
+        a:hover{
+            background: blue;
+            color: red;
+        }
+        ul{
+            list-style-type: disc;
+            font-size: 28px;
+        }
+        ol{
+            list-style-type: lower-alpha;
+            list-style-type: upper-alpha;
+            font-size: 28px;
+            background-color: blue;
+        }
+        .bike{
+            background-color: aqua;
+        }
+        /* .img{
+            list-style-image: url(img.jpg);
+        } */
+
+        li {
+            margin: 0;
+            list-style: none;
+            padding: 20px 20px 10px 40px;
+            background: url(img.jpg);
+            background-position: left center;
+            background-size: 40px;
+            background-repeat: no-repeat;
+        }
+        .homework{
+            color: aqua;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background-color: #000;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://www.youtube.com/channel/UCgq-j_ELGkD5qQNDhSCN0TA" target="_blank">Open my Channel</a>
+    <ul>
+        <h1>This is unordered list type</h1>
+        <li>Car1</li>
+        <li>Car2</li>
+        <li>Car3</li>
+    </ul>
+    <ol>
+        <h1>This is ordered list type</h1>
+        <li class="bike">bike 1</li>
+        <li class="bike">bike 2</li>
+        <li class="bike">bike 3</li>
+    </ol>
+
+    <ul class="img">
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+    </ul>
+
+    <div class="container">
+        <ol class="assignment">
+            <li>
+                <a class="homework">Open Google</a>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

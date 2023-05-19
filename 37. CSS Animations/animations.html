@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+            animation-name: bg;
+            animation-duration: 4s;
+        }
+        p{
+            width: 50px;
+            height: 50px;
+            background-color: grey;
+            animation-name: bg;
+            animation-duration: 1s;
+        }
+/* 
+        @keyframes bg {
+            from{
+                background-color: grey;
+            }
+            to{
+                background-color: blue;
+            }
+        } */
+
+        h1{
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+            /* animation-name: bg1; */
+            animation-name: wid;
+            animation-duration: 4s;
+            /* animation-delay: 1s; */
+            animation-iteration-count: infinite;
+            /* animation-direction: reverse;
+            animation-direction: alternate;
+            animation-direction: alternate-reverse; */
+            animation-timing-function: ease-in-out;
+            animation-timing-function: ease-out;
+            animation-timing-function: ease-in;
+            animation: name duration timing-function delay iteration-count direction;
+
+        }
+/* 
+        @keyframes bg1 {
+            0%{
+                background-color: blue;
+            }
+            50%{
+                background-color: green;
+            }
+            100%{
+                background-color: red;
+            }
+        } */
+
+        /* @keyframes wid {
+            0%{
+                width: 0;
+            }
+            100%{
+                width: 100vw;
+            }
+        } */
+
+        .shorthand{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            /* animation: short 2s ease-in 1s infinite alternate; */
+            animation: short 2s infinite; 
+        }
+        @keyframes short {
+            0%{
+                width: 200px;
+                height: 200px;
+            }
+            100%{
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <h2 class="shorthand">shorthand</h2>
+
+    <div>
+    </div>
+    <p></p>
+    <h1>This is a heading</h1>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+-------------------------- CSS Tables ----------------------
+The look of an HTML table can be greatly improved with CSS
+
+------------------------ Table Borders -----------------------------
+To specify table borders in CSS, use the border property.
+
+The example below specifies a solid border for <table>, <th>, and <td> elements
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid;
+}
+</style>
+</head>
+<body>
+
+<h2>Add a border to a table:</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+  </tr>
+</table>
+
+</body>
+</html>
+Double Borders
+Notice that the table in the examples above have double borders. This is because both the table and the <th> and <td> elements have separate borders.
+
+To remove double borders, take a look at the example below.
+
+-------------------- Table Width and Height -------------------------------
+The width and height of a table are defined by the width and height properties.
+
+
+------------------ Horizontal Alignment ----------------------------------
+The text-align property sets the horizontal alignment (like left, right, or center) of the content in <th> or <td>.
+
+----------------------- Vertical Alignment ----------------------------------
+The vertical-align property sets the vertical alignment (like top, bottom, or middle) of the content in <th> or <td>.
+
+By default, the vertical alignment of the content in a table is middle (for both <th> and <td> elements).

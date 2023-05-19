@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        /* div{
+            border: 2px solid blue;
+        }
+        .one{
+            float: right;
+            width: 600px;
+        }
+        h1{
+            background-color: red;
+            color: blueviolet;
+        }
+        .two{
+            float: right;
+        } */
+
+        .container{
+            background-color: black;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .box-1, .box-2, .box-3, .box-4{
+            background-color: red;
+            color: white;
+            height: 100px;
+            width: 100px;
+            float: left;
+            margin: 0px 50px;
+        }
+        .box-4{
+            float: right;
+            /* float: none; */
+        }
+        .box-2{
+            float: right;
+            /* float: inherit; */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box-1">box1</div>
+    <div class="box-2">box2</div>
+    <div class="box-3">box3</div>
+    <div class="box-4">box4</div>
+</div>
+</body>
+</html>

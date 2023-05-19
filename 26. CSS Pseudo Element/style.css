@@ -1,0 +1,51 @@
+.para{
+    background-color: rgb(0, 0, 0);
+    color: red;
+    font-size: 20px;
+}
+
+.para::first-line{
+    color: white;
+}
+
+.para::first-letter{
+    font-size: 70px;
+    color: aqua;
+}
+
+.para2{
+    background-color: antiquewhite;
+    color: red;
+    font-size: 20px;
+}
+
+.para2::before{
+    content: "devWithArsalan";
+    background: aqua;
+}
+
+.para2::after{
+    content: "devWithArsalan";
+    background: aqua;
+}
+
+
+li{
+    font-size: 40px;
+    color: blue;
+}
+
+li::marker{
+    font-size: 50px;
+}
+
+/* Selection pseudo Element */
+.para3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.para3::selection{
+    background-color: yellowgreen;
+    color: red;
+    outline: 20px solid black;
+}

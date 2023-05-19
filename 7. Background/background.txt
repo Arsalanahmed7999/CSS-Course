@@ -1,0 +1,73 @@
+In this chapter, you will learn about the following CSS background properties:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+background (shorthand property)
+
+----------------------CSS background-color----------------------
+The background-color property specifies the background color of an element.
+Opacity / Transparency
+The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0.
+
+------------------------CSS Background Image--------------------
+
+The background-image property specifies an image to use as the background of an element.
+By default, the image is repeated so it covers the entire element.
+
+Note: When using a background image, use an image that does not disturb the text.
+
+
+-----------------------CSS background-repeat------------------------
+
+By default, the background-image property repeats an image both horizontally and vertically.
+Tip: To repeat an image vertically, set background-repeat: repeat-y;
+
+
+-------------------------CSS background-repeat: no-repeat-------------------------
+Showing the background image only once is also specified by the background-repeat property:
+
+-------------------------CSS background-position------------------------------
+The background-position property is used to specify the position of the background image.
+background-position: top;
+background-position: bottom;
+background-position: left;
+background-position: right;
+background-position: center;
+
+
+--------------------CSS Background Attachment--------------------------------
+
+The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page):
+
+-----------------------CSS background - Shorthand property-----------------------
+
+To shorten the code, it is also possible to specify all the background properties in one single property. This is called a shorthand property.
+
+
+Instead of writing:
+
+body {
+  background-color: #ffffff;
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+When using the shorthand property the order of the property values is:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+           --------------------------Assignment-------------------------------
+Create a html document in which you have to create a h1 tag and set the background color of h1 to lightblue. 
+

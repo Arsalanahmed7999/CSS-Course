@@ -1,0 +1,23 @@
+/* div p{
+    color: red;
+    background-color: #000;
+} */
+
+.decendant p{
+    color: red;
+    background-color: #000;
+}
+
+.parent>p{
+    color: blue;
+    background-color: yellow;
+}
+
+
+.adjacent+p{
+    font-size: 50px;
+}
+/* TILDE */
+.general ~ p{
+    background-color: blueviolet;
+}

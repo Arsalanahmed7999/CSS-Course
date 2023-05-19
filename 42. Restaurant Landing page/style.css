@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Labrada&family=Lobster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --navFontSize: 2rem;
+    --navFontFamily: 'Labrada', serif;
+}
+
+body{
+    background-color: #000;
+}
+nav {
+    display: flex;
+    min-height: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 5px 8px;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
+    padding: 2px;
+}
+
+.logo span {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: var(--navFontSize);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    color: white;
+    list-style: none;
+    font-size: var(--navFontSize);
+    margin: 0px 10px;
+    font-family: var(--navFontFamily);
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 2px 5px;
+}
+nav ul li:hover{
+    background-color: rgba(218, 165, 32, 0.5);
+    color: white;
+    border-radius: 10px;
+}
+
+main{
+    background: url(bg.jpg);
+    background-size: 100%;
+    height: 800px;
+    padding: 10px 15px;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+main .primary{
+    font-size: 7rem;
+    color: goldenrod;
+    width: 50vw;
+}
+
+main p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 50vw;
+    padding: 10px 8px;
+    font-family: var(--navFontFamily);
+}
+
+.btn{
+    background-color: goldenrod;
+    height: 100px;
+    width: 300px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: var(--navFontFamily);
+    margin: 30px 15px;
+    outline: 5px solid goldenrod;
+    outline-offset: 10px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    border: none;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    outline: none;
+    box-shadow:0 0 10px white;
+}
+
+
+
+

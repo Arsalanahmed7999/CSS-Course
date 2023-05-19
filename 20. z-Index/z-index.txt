@@ -1,0 +1,20 @@
+--------------------- CSS Layout - The z-index Property ----------------------------
+
+The z-index property specifies the stack order of an element.
+
+The z-index Property
+When elements are positioned, they can overlap other elements.
+
+The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
+
+----------------- Assignmet ----------------------
+
+Exercise:
+Both the header and the paragraph are positioned at the top of the page.
+Make sure that the header is placed on top of the paragraph.
+
+
+<body>
+  <h1 id="mytitle">This is a heading</h1>
+  <p id="myintro">This is a paragraph</p>
+</body>

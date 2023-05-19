@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        .linear{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+            background: linear-gradient(to top, yellowgreen, aqua);
+            background: linear-gradient(to right, yellowgreen, aqua);
+            background: linear-gradient(to bottom, yellowgreen, aqua);
+            background: linear-gradient(to left, yellowgreen, aqua, orange, purple);
+            background: linear-gradient(45deg, purple, aqua);
+        }
+        .radial{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+            background: radial-gradient(red, yellow, aqua, purple, green, black, white);
+        }
+        .conic{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            border-radius: 50%;
+            background: conic-gradient(yellow, blue, green, red);
+        }
+    </style>
+</head>
+<body>
+    <div class="linear"></div>
+    <div class="radial"></div>
+    <div class="conic"></div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+---------------------- CSS FORMS ---------------------------
+
+The look of an HTML form can be greatly improved with CSS
+If you only want to style a specific input type, you can use attribute selectors
+input[type=text] - will only select text fields
+input[type=password] - will only select password fields
+input[type=number] - will only select number fields
+
+
+--------------------- Focused Inputs ------------------------------
+By default, some browsers will add a blue outline around the input when it gets focus (clicked on). You can remove this behavior by adding outline: none; to the input.
+
+
+------------------------ Styling Textareas ------------------------
+Tip: Use the resize property to prevent textareas from being resized (disable the "grabber" in the bottom right corner)
+
+------------------------ Styling Select -------------------------
+<form>
+  <select id="country" name="country">
+  <option value="au">Australia</option>
+  <option value="ca">Canada</option>
+  <option value="usa">USA</option>
+  </select>
+</form>

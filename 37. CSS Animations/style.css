@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #001122;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.coin {
+    height: 300px;
+    width: 300px;
+    background-color: goldenrod;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px rgb(118, 85, 0);
+    position: relative;
+    /* -webkit-box-reflect: below 0px linear-gradient(to bottom, rgb(0,0,0,0.0), rgb(0,0,0,0.4)); */
+    animation: rot 2s infinite linear;
+}
+
+.coin::after {
+    content: "Coin";
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(118, 85, 0);
+    left: 70px;
+    top: 100px;
+}
+
+@keyframes rot {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}

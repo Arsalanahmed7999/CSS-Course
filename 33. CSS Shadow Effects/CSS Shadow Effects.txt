@@ -1,0 +1,52 @@
+----------- CSS Shadow Effects --------------
+
+
+CSS Shadow Effects
+With CSS you can add shadow to text and to elements.
+
+In these chapters you will learn about the following properties:
+
+text-shadow
+box-shadow
+
+------- CSS Text Shadow
+The CSS text-shadow property applies shadow to text.
+
+In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px)
+
+-------------- Multiple Shadows
+To add more than one shadow to the text, you can add a comma-separated list of shadows.
+
+
+
+------------------------- CSS Box Shadow
+
+CSS box-shadow Property
+The CSS box-shadow property is used to apply one or more shadows to an element.
+
+Specify a Horizontal and a Vertical Shadow
+In its simplest use, you only specify a horizontal and a vertical shadow. The default color of the shadow is the current text-color.
+
+Specify a Color for the Shadow
+The color parameter defines the color of the shadow.
+
+Add a Blur Effect to the Shadow
+The blur parameter defines the blur radius. The higher the number, the more blurred the shadow will be.
+
+
+
+---------------- Set the Spread Radius of the Shadow
+The spread parameter defines the spread radius. A positive value increases the size of the shadow, a negative value decreases the size of the shadow.
+
+
+------------------ Set the inset Parameter
+The inset parameter changes the shadow from an outer shadow (outset) to an inner shadow.
+
+
+Add Multiple Shadows
+An element can also have multiple shadows
+
+
+                ------- ASSIGNMENT ------
+
+Create a container in which give the box shadow property of your own choice and inside a container create a h1 tag in which create a text shadow in contrast to the background of the container, you are free to style anything you want in this container just show your creativity.

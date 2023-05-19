@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition</title>
+    <style>
+        div{
+            height: 200px;
+            width: 300px;
+            background-color: blue;
+            color:white;
+            transition: width;
+            /* transition: height; */
+            /* transition-delay: 1s; */
+            transition-duration:3s;
+            /* transition: width, height; */
+            transition-timing-function: ease;
+            transition-timing-function: linear;
+            transition-timing-function: ease-in;
+            transition-timing-function: ease-out;
+            transition-timing-function: ease-in-out;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            /* transition: property delay timing-function duration */
+            transition: width 2s ease 1s;
+
+        }
+        /* div:hover{
+            width: 100vw;
+        } */
+        .height{
+            height: 200px;
+            width: 300px;
+            background-color:tomato;
+            color:white;
+            transition: height ease-in-out 1s, width ease-in-out 1s, font-size ease 1s, background-color ease 2s;
+        }
+        .height:hover{
+            height: 400px;
+            width:600px;
+            font-size: 40px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+   <!-- <div>
+    This is a div
+   </div>  -->
+
+   <div class="height">
+    This is height
+   </div>
+
+</body>
+</html>

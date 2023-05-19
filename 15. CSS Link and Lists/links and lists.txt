@@ -1,0 +1,30 @@
+---------------------- CSS Links -------------------------------
+
+-------------- Text Decoration ---------------------------------
+The text-decoration property is mostly used to remove underlines from links
+
+
+------------------------ CSS Lists -----------------------------------
+
+unordered lists (<ul>) - the list items are marked with bullets
+ordered lists (<ol>) - the list items are marked with numbers or letters
+The CSS list properties allow you to:
+
+Set different list item markers for ordered lists
+Set different list item markers for unordered lists
+Set an image as the list item marker
+Add background colors to lists and list items
+
+--------  Different List Item Markers  ------------------
+The list-style-type property specifies the type of list item marker.
+
+
+-------------- An Image as The List Item Marker ----------------------
+
+-------------------- Styling List With Colors ---------------------
+We can also style lists with colors, to make them look a little more interesting.
+
+
+------------------------------ Assignment ------------------------
+
+Create a link in a ordered list. Link color should aqua and background color should be black.

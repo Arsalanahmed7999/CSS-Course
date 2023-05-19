@@ -1,0 +1,73 @@
+-------------------CSS Margins----------------------------
+
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+**************Margin - Individual Sides**********************
+CSS has properties for specifying the margin for each side of an element:
+
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+
+auto - the browser calculates the margin.
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
+
+
+NEGATIVE VALUES ARE ALLOWED
+
+**************************   Margin - Shorthand Property   *****************************
+
+
+*********************CSS Margin Collapse**********************
+Top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins.
+
+This does not happen on left and right margins! Only top and bottom margins!
+
+
+
+-------------------------CSS Padding--------------------------
+
+Padding is used to create space around an element's content, inside of any defined borders.
+
+Padding - Individual Sides
+CSS has properties for specifying the padding for each side of an element:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+All the padding properties can have the following values:
+
+length - specifies a padding in px, pt, cm, etc.
+% - specifies a padding in % of the width of the containing element
+inherit - specifies that the padding should be inherited from the parent element
+
+NEGATIVE VALUES ARE NOT ALLOWED
+
+******************Padding - Shorthand Property***********************
+To shorten the code, it is possible to specify all the padding properties in one property.
+
+The padding property is a shorthand property for the following individual padding properties:
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+*******************Padding and Element Width**********************
+
+The CSS width property specifies the width of the element's content area. The content area is the portion inside the padding, border, and margin of an element (the box model).
+
+So, if an element has a specified width, the padding added to that element will be added to the total width of the element. This is often an undesirable result.
+
+
+*******************Assigment*********************
+
+Create an h1 tags and write your name in it using HTML. Create a stylesheet where you have to style h1 tags giving 10px margin and padding from top and bottom, 5px from left and right. 
+
+
+

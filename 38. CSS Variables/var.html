@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Var tutorial</title>
+    <style>
+        /* global */
+        :root {
+            --blue: #0072e4;
+            --white: #FFF;
+            --myHeight: 200px;
+            --red: #ff0000;
+        }
+
+        h1 {
+            --white: grey;
+            background-color: var(--blue);
+            color: var(--white);
+            height: var(--myHeight);
+        }
+
+        .container {
+            height: var(--myHeight);
+            background-color: var(--red);
+        }
+
+        /* local */
+        .localVar {
+            --purple: purple;
+            --diffHeight: 400px;
+            background-color: var(--purple);
+            height: var(--diffHeight);
+        }
+        p{
+            height: var(--diffHeight);
+            height: var(--myHeight);
+        }
+
+        h2{
+            --blue: rgb(73, 73, 88);
+            background-color: var(--blue);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>This is a overriding tutorial</h2>
+
+    <h1>This is a heading</h1>
+    <div class="container"></div>
+
+    <div class="localVar">This is local</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nam tempora, sunt similique numquam aut debitis accusamus totam exercitationem, nisi doloremque commodi dolores quod natus error rerum corrupti ut veritatis.</p>
+
+</body>
+
+</html>

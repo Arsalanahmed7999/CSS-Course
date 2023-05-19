@@ -1,0 +1,46 @@
+/* selector[att]{
+styling.....
+} */
+
+/* p[title]{
+    color: red;
+    background-color: black;
+    font-size: 30px;
+} */
+
+p[title="title"]{
+    color: blue;
+    background-color: aqua;
+}
+
+p[title~="title"]{
+    color: yellow;
+    background: #000;
+}
+
+p[title|='top']{
+    color: red;
+}
+
+p[title|='center']{
+    color: violet;
+}
+
+p[title^='according']{
+    background-color: aqua;
+} 
+p[title^='according']{
+    background-color: aqua;
+} 
+p[title$='me']{
+    background-color: rgb(204, 0, 255);
+}
+
+p[title*="thing"]{
+    color: grey;
+    background-color: aqua;
+}
+p[title*="Lorem"]{
+    color: grey;
+    background-color: rgb(0, 0, 0);
+}

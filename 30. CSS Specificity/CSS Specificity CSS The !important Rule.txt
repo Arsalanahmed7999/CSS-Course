@@ -1,0 +1,46 @@
+----------------------- CSS Specificity --------------------------
+
+What is Specificity?
+If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+
+Think of specificity as a score/rank that determines which style declaration is ultimately applied to an element.
+
+---------------------- Specificity Hierarchy
+Every CSS selector has its place in the specificity hierarchy.
+
+There are four categories which define the specificity level of a selector:
+
+Inline styles - Example: <h1 style="color: pink;">
+IDs - Example: #navbar
+Classes, pseudo-classes, attribute selectors - Example: .test, :hover, [href]
+Elements and pseudo-elements - Example: h1, :before
+
+Inline - 1000
+IDs - 100
+Classes - 10
+Elements - 1
+
+---------------- How to Calculate Specificity?
+Memorize how to calculate specificity!
+
+Start at 0, add 100 for each ID value, add 10 for each class value (or pseudo-class or attribute selector), add 1 for each element selector or pseudo-element.
+
+Note: Inline style gets a specificity value of 1000, and is always given the highest priority!
+
+Note 2: There is one exception to this rule: if you use the !important rule, it will even override inline styles!
+
+----------------- More Specificity Rules Examples
+Equal specificity: the latest rule wins - If the same rule is written twice into the external style sheet, then the latest rule wins.
+
+
+The universal selector (*) and inherited values have a specificity of 0 - The universal selector (*) and inherited values are ignored!
+
+
+---------------------- CSS The !important Rule ------------------
+
+What is !important?
+The !important rule in CSS is used to add more importance to a property/value than normal.
+
+In fact, if you use the !important rule, it will override ALL previous styling rules for that specific property on that element!
+
+Tip: It is good to know about the !important rule. You might see it in some CSS source code. However, do not use it unless you absolutely have to.

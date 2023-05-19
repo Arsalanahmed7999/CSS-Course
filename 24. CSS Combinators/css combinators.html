@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS cominators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Decendant Selector -->
+    <p>Para outside division</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eos dolor, excepturi nobis quidem, in sapiente quas voluptas nostrum voluptatum repellat facilis corrupti dolores nam eveniet dicta et libero. Corrupti.</p>
+    <div class="decendant">
+        <p>Para in division</p>
+        <p>Para in division</p>
+        <p>Para in division</p>
+        <p>Para in division</p>
+        <p>Para in division</p>
+        <p>Para in division</p>
+    </div>
+    <p>Para outside division</p>
+
+    <!-- Chlid Selector -->
+    <p>This is outside child</p>
+    <div class="parent">
+        <p>This is a child</p>
+        <p>This is a child</p>
+        <p>This is a child</p>
+        <p>This is a child</p>
+    </div>
+    <p>This is not a child</p>
+
+    <!-- Adjacent Sibling Selector -->
+    <div class="adjacent">
+        <p>This is inside adjacent</p>
+    </div>
+    <p>This is just after adjacent</p>
+    <p>This is just after adjacent</p>
+
+    <!-- General Sibling Selector -->
+    <p>This is just outside general</p>
+    <div class="general">
+        <p>This is a paragraph inside general</p>
+    </div>
+    <p>This is just outside general</p>
+    <p>This is just outside general</p>
+</body>
+</html>

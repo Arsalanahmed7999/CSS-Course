@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: black;
+            display: grid;
+            /* grid-template-columns: auto auto auto; */
+            /* grid-template-columns: 1fr 4fr 2fr; */
+            /* width: 100vw; */
+            /* display: inline-grid; */
+            height: 600px;
+            /* grid-template-columns: repeat(3, auto); */
+            /* grid-template-columns: 100px 200px 300px; */
+            grid-gap: 1rem;
+            /* grid-column-gap: 2rem; */
+            /* grid-template-rows: 200px 300px 100px 200px 50px; */
+            /* grid-row-gap: 2rem; */
+            /* justify-content: center;
+            align-items: center; */
+        }
+
+        .item {
+            padding: 10px 15px;
+            background-color: red;
+            margin: 2px;
+        }
+
+        /* .item1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        } */
+
+        /* .item1 {
+            grid-row-start: 1;
+            grid-row-end: 3;
+        } */
+        /* .item1{
+            grid-column: 1/3;
+            grid-column: 1 / 4;
+            grid-column: 2 / 4;
+        }
+        .item1{
+            grid-row: 1 / 4;
+        } */
+        .item{
+            grid-area: "myArea";
+        }
+
+        .container{
+            /* grid-template-areas: "myArea myArea myArea myArea"; */
+            grid-template-areas: "myArea . . . . . .";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item1">This is item-1</div>
+        <div class="item item2">This is item-2</div>
+        <div class="item">This is item-3</div>
+        <div class="item">This is item-4</div>
+        <div class="item">This is item-5</div>
+        <div class="item">This is item-6</div>
+        <div class="item">This is item-7</div>
+        <div class="item">This is item-8</div>
+        <div class="item">This is item-9</div>
+        <!-- <div class="item">This is item-1</div>
+        <div class="item">This is item-2</div>
+        <div class="item">This is item-3</div>
+        <div class="item">This is item-4</div>
+        <div class="item">This is item-5</div>
+        <div class="item">This is item-6</div>
+        <div class="item">This is item-7</div>
+        <div class="item">This is item-8</div>
+        <div class="item">This is item-9</div> -->
+    </div>
+</body>
+
+</html>

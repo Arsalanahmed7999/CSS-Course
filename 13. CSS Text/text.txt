@@ -1,0 +1,59 @@
+----------------------------CSS Text-----------------------------------
+
+CSS has a lot of properties for formatting text.
+
+----------------Text Color--------------------------
+
+*****************Important: High contrast is very important for people with vision problems. So, always ensure that the contrast between the text color and the background color (or background image) is good!
+
+-------------------------CSS Text Alignment-----------------------------
+Text Alignment and Text Direction-
+
+Text Alignment
+The text-align property is used to set the horizontal alignment of a text.
+
+Text Align Last
+The text-align-last property specifies how to align the last line of a text.
+
+
+----------------CSS Text Decoration ------------------------------
+
+Add a Decoration Line to Text -
+The text-decoration-line property is used to add a decoration line to text.
+
+Tip: You can combine more than one value, like overline and underline to display lines both over and under a text.
+
+Specify a Color for the Decoration Line -
+The text-decoration-color property is used to set the color of the decoration line.
+
+Specify a Style for the Decoration Line -
+The text-decoration-style property is used to set the style of the decoration line.
+
+Specify the Thickness for the Decoration Line -
+The text-decoration-thickness property is used to set the thickness of the decoration line.
+
+The Shorthand Property -
+The text-decoration property is a shorthand property for:
+
+text-decoration-line (required)
+text-decoration-color (optional)
+text-decoration-style (optional)
+text-decoration-thickness (optional)
+
+
+----------------------CSS Text Transformation----------------------------
+
+Text Transformation
+The text-transform property is used to specify uppercase and lowercase letters in a text.
+
+-------------------------CSS Text Spacing----------------------------------
+
+text-indent - The text-indent property is used to specify the indentation of the first line of a text
+letter-spacing - The letter-spacing property is used to specify the space between the characters in a text.
+line-height - The line-height property is used to specify the space between lines
+word-spacing - The word-spacing property is used to specify the space between the words in a text.
+white-space - The white-space property specifies how white-space inside an element is handled.
+
+------------------------Assignment-------------------------
+
+Create an h1 tag where you have to give background color tomato color black padding 10px from top and bottom and 20px px left right, and also make sure the alignment of the text is center and the outline of the element is 10px dashed blue. 
